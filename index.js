@@ -7,7 +7,7 @@ app.use(cors());
 const port = 3000;
 app.use(express.static('static'));
 
-let products = [
+let products = [ 
   {
     id: 1,
     name: "Xiaomi iPhone 12",
